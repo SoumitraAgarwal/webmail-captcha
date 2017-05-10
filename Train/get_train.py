@@ -8,7 +8,7 @@ import shutil
 
 url = "https://webmail.iitg.ernet.in/plugins/captcha/backends/watercap/image_generator.php?sq=1494419964"
 
-for i in range(100):
+for i in range(50,100):
 	print("Getting page for "+str(i))
 	while(True):
 		try:

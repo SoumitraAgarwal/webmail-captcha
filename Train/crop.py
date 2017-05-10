@@ -3,4 +3,5 @@ import os
 
 files = os.listdir("Stock")
 
-print(files)
+for file in files:
+	
